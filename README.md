@@ -1,2 +1,2 @@
 # php56-fpm
-PHP 5.6 with mysql, gd dockerfile
+Dockerfile for PHP 5.6 with mysql, gd
