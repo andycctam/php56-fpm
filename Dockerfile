@@ -8,6 +8,3 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get -y --no-install-recommends install  php5-mysql php5-gd \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
-
-# php-ini-overrides.ini
-ADD php-ini-overrides.ini /etc/php5/fpm/conf.d/99-overrides.ini
